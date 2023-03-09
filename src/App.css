@@ -1,0 +1,35 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board, td {
+  border: 1px solid;
+}
+
+td {
+  height: 16px;
+  width: 22px;
+  text-align: center;
+}
+
+td:hover {
+  cursor: pointer;
+  background-color: rgb(214, 214, 214);
+}
+
+.number-selection {
+  display: flex;
+  flex-direction: row;
+}
+
+.number-selection > .number-selectors {
+  padding: 0 8px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.number-selection > .number-selectors:hover {
+  cursor: pointer;
+}
